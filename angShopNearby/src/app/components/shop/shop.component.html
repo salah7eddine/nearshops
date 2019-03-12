@@ -1,0 +1,20 @@
+      <tr>
+          <th>
+            {{shop?.title}}
+          </th>
+        </tr>
+        
+        <tr>
+
+          <td>
+            <img src="../../../../../assets/{{shop?.image}}_logo.jpg" alt="">
+          </td>
+          
+        </tr>
+        <tr>
+          <th>
+              <button id= "dislike" (click)="onDislike()" *ngIf="hidden" >Dislike</button>
+              <button id= "like" (click)="onLike()" *ngIf="hidden">Like</button>
+              <button id= "dislike" (click)="onRemove()" *ngIf="!hidden">Remove</button>
+          </th>  
+      </tr>        

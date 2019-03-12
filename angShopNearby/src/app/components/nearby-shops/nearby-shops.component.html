@@ -1,0 +1,2 @@
+<!-- <app-shop id="shop" *ngFor="let shop of shops?.shops" [shop]="shop"></app-shop> -->
+<app-shop id="shop" *ngFor="let review of reviews" [review]="review" [index] = "index" [disLike] = "review.dislike" ></app-shop>

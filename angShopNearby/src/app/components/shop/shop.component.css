@@ -1,0 +1,31 @@
+tr {
+  margin-top: 50px;
+  padding: 15px;
+  border: 1px solid black;
+}
+th {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 40px;
+}
+
+img {
+  width: 182px;
+  height: 182px;
+}
+
+#like {
+  background-color: green;
+  color: white;
+}
+
+#dislike {
+  background-color: red;
+  color: white;
+}
